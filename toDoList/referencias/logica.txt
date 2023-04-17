@@ -1,0 +1,21 @@
+<?php ?>
+<div tarefas>
+    <div todo>
+        <?php
+        //$puxa todas as rows com status == ToDo
+            //ao clicar no title, alterar status para InProgress
+            ?>
+    </div todo>
+    <div inprogress>
+        <?php
+        //$puxa todas as rows com status == InProgress
+            //ao clicar no title, alterar status para Done
+        ?>
+    </div inprogress>
+    <div done>
+        <?php
+        //$puxa todas as rows com status == Done
+            //ao clicar no title, alterar status para ToDo OU apresentar botão para ('excluir', 'ToDo', 'InProgress')
+        ?>
+    </div done>
+</div tarefas>
